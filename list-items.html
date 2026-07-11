@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Ricordare Marcinelle</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="Immagini/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<header>
+		<div>
+			<img src="Immagini/eco.png" alt="Eco di Bergamo">
+		</div>
+	</header>
+	<nav>
+		<div class="navbar">
+          <a href="Index.html" title="Home">Home</a>
+          <a href="#" title="La Storia">La Storia</a>
+          <a href="list-items.html" class="active" title="Catalogo">Catalogo</a>
+          <div class="dropdown">
+    				<button class="dropbtn" title="Percorsi">Percorsi 
+      			<i class="fa fa-caret-down"></i>
+    				</button>
+    				<div class="dropdown-content">
+      				<a href="https://timeline.knightlab.com/" title="Cronologia">Cronologia</a>
+              <a href="https://leafletjs.com/index.html" title="Luoghi">Luoghi</a>
+      				<a href="#" title="Persone">Persone</a>
+    				</div>
+  				</div>
+  				<a href="data.html" title="Dati">Dati</a>
+          <a href="#" style="float:right" title="English">EN</a>
+          <a href="#" style="float:right" title="Nederlands">NE</a>
+          <a href="#" style="float:right" title="Français">FR</a>
+          <a href="#" style="float:right" title="Italiano">IT</a>
+          <input type="text" placeholder="Search..">
+        </div>
+	</nav>
+	<div class="container">
+		<div class="side">
+		    <div>
+	        <ul class="breadcrumb">
+	          <li><a href="index.html" title="Vai alla home">Home</a></li>
+	          <li style="color: grey">Catalogo</li>
+	        </ul>
+        </div>
+        <div>
+        	<h4>Tappe storiche significative:<h4>
+						<p><a href="" class="button default">L'immigrazione italiana in Belgio</a></p>
+						<p><a href="" class="button default">Una tragedia annunciata</a></p>
+						<p><a href="" class="button default">Il disastro di Bois du Cazier</a></p>
+						<p><a href="" class="button default">Ricordare la tragedia</a></p>
+			</div>
+		</div>
+	 <div class="main">
+		<h2>Catalogo</h2> 
+			<div id="myBtnContainer">
+			  <button class="btn default" onclick="filterSelection('all')"> Tutto</button>
+			  <button class="btn default" onclick="filterSelection('video')"> Video</button>
+			  <button class="btn default" onclick="filterSelection('photo')"> Foto</button>
+			  <button class="btn default" onclick="filterSelection('document')">Documentazione</button>
+			  <button class="btn default" onclick="filterSelection('newspaper')">Giornali</button>
+			  <button class="btn default" onclick="filterSelection('artwork')">Opere d'arte</button>
+			</div>
+			<div class="row">
+			  <div class="column video">
+			    <div class="content">
+			      <a href="item.html"><img src="Immagini/item.png" alt="La tragica miniera belga"></a>
+			      <h4>La tragica miniera belga</h4>
+			      <p>Titolare: <a href="#">Cinecittà-Luce</a></p>
+			      <p>Data: <a href="#">16-08-1956</a></p> 
+			    </div>
+			  </div>
+			  <div class="column video">
+			    <div class="content">
+			      <a href="#"> <img src="Immagini/bullettin2.png" alt="Telegiornale dell' 8/8/1956"></a>
+			      <h4>Telegiornale dell' 8/8/1956 (Catastrofe di Marcinelle)</h4>
+			      <p>Titolare: <a href="#">RTBF</a> </p>
+			      <p>Data: <a href="#">08-08-1956</a></p>
+			    </div>
+			  </div>
+			  <div class="column video">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/bullettin.png" alt="Telegiornale"></a>
+			      <h4>Telegiornale (Catastrofe di Bois du Cazier)</h4>
+			      <p>Titolare: <a href="#">RTBF</a></p>
+			      <p>Data: <a href="#">08-08-1956</a></p>
+			    </div>
+			  </div>
+			  <div class="column video">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/funeral.png" alt="Inaugurazione del monumento ai minatori caduti a Marcinelle" style="width:100%"></a>
+			      <h4>Inaugurazione del monumento ai minatori caduti...</h4>
+			      <p>Titolare: <a href="#">Cinecittà-Luce</a></p>
+			      <p>Data: <a href="#">08-08-1957</a></p>
+			    </div>
+			  </div>
+			  <div class="column photo">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/fumo.png" alt="Fumi in fuoriuscita dai pozzi di risalita d'aria"></a>
+			      <h4>Fumi in fuoriuscita dai pozzi di risalita d'aria</h4>
+			      <p>Titolare: <a href="#">Le Bois du Cazier</a></p>
+			      <p>Data: <a href="#">08-08-1956</a></p>
+			    </div>
+			  </div>
+			  <div class="column photo">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/entrata.png" alt="Entrata della miniera di carbone"></a>
+			      <h4>Entrata della miniera di carbone</h4>
+			      <p>Titolare: <a href="#">Le Bois du Cazier</a></p>
+			      <p>Data: <a href="#">08-08-1956</a></p>
+			    </div>
+			  </div>
+			  <div class="column photo">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/bara.png" alt="Minatori trasportano la bara di Alphonse Godart dopo il suo funerale a Pironchamps"></a>
+			      <h4>Minatori trasportano la bara di Alphonse Godart...</h4>
+			      <p>Titolare: <a href="#">Le Bois du Cazier</a></p>
+			      <p>Data: <a href="#">08-08-1956</a></p>
+			    </div>
+			  </div>
+			  <div class="column artwork">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/statua.png" alt="Minatore trasporta il corpo di un collega morto"></a>
+			      <h4>Minatore trasporta il corpo di un collega morto</h4>
+			      <p>Autore: <a href="#">J. Arnost Grouse, M. Jaworski</a></p>
+			      <p>Data: <a href="#">2010</a></p>
+			    </div>
+			  </div>
+			  <div class="column artwork">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/quadro.png" alt="Bois du Cazier, luogo di memoria"></a>
+			      <h4>Bois du Cazier, luogo di memoria</h4>
+			      <p>Autore: <a href="#">N. Lepape</a></p>
+			      <p>Data: <a href="#">2016</a></p>
+			    </div>
+			  </div>
+			  <div class="column document">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/accident.png" alt="Centrale di salvataggio di Marcinelle. Istruzioni di salvataggio in caso di incidente grave"></a>
+			      <h4>Centrale di salvataggio di Marcinelle...</h4>
+			      <p>Titolare: <a href="#">Museo dell'industria mineraria di Bochum</a></p>
+			      <p>Data: <a href="#">1917-1936</a></p>
+			    </div>
+			  </div>
+			  <div class="column newspaper">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/unita.png" alt="270 minatori sepolti vivi nel Belgio 139 sono italiani"></a>
+			      <h4>"270 minatori sepolti vivi nel Belgio 139 sono italiani"</h4>
+			      <p>Editore: <a href="#">L'Unità</a></p>
+			      <p>Data: <a href="#">09-08-1956</a></p> 
+			    </div>
+			  </div>
+			  <div class="column newspaper">
+			    <div class="content">
+			      <a href="#"><img src="Immagini/soir.png" alt="Più di 250 minatori restano bloccati dal fuoco del pozzo del Cazier" style="width:100%"></a>
+			      <h4>"Più di 250 minatori restano bloccati dal fuoco..."</h4>
+			      <p>Editore: <a href="#">Le Soir</a></p>
+			      <p>Data: <a href="#">09-08-1956</a></p>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<p class="footext">Credits | Licenze | Web Project Plan</p>
+            <p class="footext">© Copyright (c) 2026 by Francesco Burgio Università di Bologna</p>
+		</div>
+	</footer>
+	<script>
+filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</body>
+</html>
