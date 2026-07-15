@@ -1,0 +1,11 @@
+﻿ID,Nome standard,Tipo,Descrizione,Record di autorità,RA2,RA3
+PERS_001,Re Baldovino di Belgio,Persona,"Sovrano del Belgio dal 1951 al 1993, al trono da 5 anni quando ha luogo la tragedia.","http://viaf.org/viaf/89600861   https://www.wikidata.org/wiki/Q12976
+",http://id.loc.gov/authorities/names/n80113792,https://www.wikidata.org/wiki/Q12976
+PERS_002,Achille Van Acker,Persona,Primo ministro belga per 3 volte tra il 1945 e il 1958. Ha un ruolo importante nel boom migratorio ed è il primo ministro in carica durante la tragedia.,http://viaf.org/viaf/18084946 ,,
+LOC_001,Marcinelle,Luogo,Località belga oggi facente parte del comune di Charleroi. Nel dopoguerra comune a vocazione industriale in cui diverse centinaia di operai lavoravano e dimoravano con le loro famiglie,http://vocab.getty.edu/page/tgn/7251628,https://www.geonames.org/2791726/marcinelle.html  ,
+LOC_003,Charleroi,Luogo,"Città belga situata al centro del vasto bacino carbonifero del Borinage, oggi non più sfruttato. Dal 1977 ha inglobato il comune di Marcinelle.",http://vocab.getty.edu/page/tgn/7007869, https://www.geonames.org/2800481/charleroi.html ,
+IST_001,Archivio storico Luce,Istituzione,"Archivio pubblico costituito da un vasto patrimonio di fondi cinematografici, fotografici e documentari utili a ricostruire la storia d'Italia nel Novecento",http://viaf.org/viaf/153856420 ,,
+IST_002,Radio-Télévision Belge de la Communauté française,Istituzione,Impresa pubblica che si occupa di diffusione radio e televisiva nella comunità francofona belga.,http://viaf.org/viaf/141905751 ,,
+IST_003,Le Bois du Cazier,Istituzione,Sito minerario attivo fino al 1967. Oggi museo e monumento nazionale.,http://viaf.org/viaf/241245127 ,,
+IST_004,Royal Library of Belgium,Istituzione,Biblioteca nazionale che raccoglie tutte le pubblicazioni belghe,http://viaf.org/viaf/312739455 ,,
+TEC_001,Filmato in bianco e nero,Tecnica,Tecnica di conservazione immagini più diffusa prima della diffusione della pellicola a colori,http://vocab.getty.edu/page/aat/300127344 ,,

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trascrizione della narrazione: "La tragica miniera belga."</title>
+      </titleStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="video" dur="PT1M44S">
+            <p>Cinegiornale digitalizzato</p>
+            <broadcast>
+              <bibl>
+                <title>Miniere di Marcinelle: più di duecento minatori bloccati nelle viscere della terra. Decine i morti e i feriti. Sul posto accorrono il re Baldovino e il primo ministro Van Acker.</title>
+                <author>Industria Corti Metraggi (INCOM)</author>
+                <series>
+                  <title xml:id="IST_005" ref="https://www.wikidata.org/wiki/Q17635167">La Settimana INCOM</title>
+                </series>
+                <note>Prima trasmissione il <date when="1956-08-16">16 agosto 1956</date>
+                </note>
+              </bibl>
+            </broadcast>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <particDesc>
+      <person xml:id="narrator" role="narrator">
+        <persName>Voce narrante</persName>
+      </person>
+    </particDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="transcription">
+        <timeline xml:id="tl1" unit="s">
+          <when xml:id="t08" absolute="00:00:08"/>
+          <when xml:id="t20" absolute="00:00:20"/>
+          <when xml:id="t30" absolute="00:00:30"/>
+          <when xml:id="t42" absolute="00:00:42"/>
+          <when xml:id="t54" absolute="00:00:54"/>
+          <when xml:id="t72" absolute="00:01:12"/>
+          <when xml:id="t81" absolute="00:01:21"/>
+          <when xml:id="t104" absolute="00:01:44"/>
+        </timeline>
+
+        <u who="#narrator" start="#t08" end="#t20">
+          Il fumo denso e acre proviene dal pozzo numero uno. Da quasi
+          <measure type="height" quantity="1000" unit="m">1000 metri di profondità</measure>  vi arde un intero filone carbonifero, e là sottoterra ci sono ancora 261 uomini, 139 italiani.
+        </u>
+
+        <u who="#narrator" start="#t20" end="#t30">
+          Da tutto il <placeName>Belgio</placeName>> sono accorsi i volenterosi, che si calano giù per tentare di salvare i fratelli, pur sapendo che potrebbero non ritornare più anche loro.
+        </u>
+
+        <u who="#narrator" start="#t30" end="#t42">
+          Attorno alla miniera centinaia di persone attendono da ore, ormai da giorni. Hanno il proprio uomo e il proprio figlio sotto i loro piedi, consunti in una lenta, orribile morte, e non si può far niente.
+        </u>
+
+        <u who="#narrator" start="#t42" end="#t54">
+          <persName ref="http://viaf.org/viaf/89600861">Re baldovino</persName> e il <persName ref="http://viaf.org/viaf/18084946">primo ministro Van Acker</persName>> accorrono a <placeName ref="http://vocab.getty.edu/page/tgn/7251628">Marcinelle</placeName>. Niente, non si può far niente, se non dire parole di conforto, e forse, dare assicurazioni per il futuro.
+        </u>
+
+        <u who="#narrator" start="#t54" end="#t72">
+          Ma, ai morti, le parole non servono più. Fino a questo momento, oltre i 261 sepolti, sono stati estratti sei feriti e 19 morti.
+        </u>
+        <u who="#narrator" start="#t81" end="#t104">
+          Talvolta l'incuria, la distrazione degli uomini, o anche la fatalità, scatenano le forze primigenie della natura.   Forze misteriose che le antiche genti attribuivano ad orrendi mostri avidi di
+          divorare vite umane.        
+        </u>
+
+      </div>
+    </body>
+  </text>
+</TEI>

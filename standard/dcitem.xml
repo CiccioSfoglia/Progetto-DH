@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             >
+
+  <dc:title>La tragica miniera belga.</dc:title>
+  <dcterms:alternative>Miniere di Marcinelle: più di duecento minatori bloccati nelle viscere della terra. Decine i morti e i feriti. Sul posto accorrono il re Baldovino e il primo ministro Van Acker.</dcterms:alternative>
+  <dc:creator>Incom (La Settimana Incom)</dc:creator>
+  <dcterms:coverage>Marcinelle, Belgio</dcterms:coverage>
+  <dcterms:spatial xsi:type="dcterms:https://www.geonames.org/">https://www.geonames.org/2791726/marcinelle.html</dcterms:spatial>
+  <dcterms:spatial xsi:type="dcterms:TGN">http://vocab.getty.edu/page/tgn/7251628</dcterms:spatial> 
+  <dc:date>1956</dc:date>
+  <dc:type>Cinegiornale</dc:type>
+  <dc:format>video/film (digitalizzato, bianco e nero, sonoro, altri parametri tecnici originali non specificati nel record di origine)</dc:format>
+  <dc:identifier>VID_001</dc:identifier>
+  <dc:identifier>IL5000032913</dc:identifier>
+  <dc:identifier>I144201</dc:identifier>
+  <dc:publisher>Cinecittà - Luce</dc:publisher>
+  <dc:source>https://www.europeana.eu/it/item/08602/IL5000032913</dc:source>
+  <dc:language>it</dc:language>
+  <dcterms:IsPartOf>Europeana XX: Century of Change</dcterms:IsPartOf>
+  <dc:relation>aggregated via Europeana e The European Film Gateway</dc:relation>
+  <dc:subject>industria estrattiva</dc:subject>
+  <dcterms:subject xsi:type="dcterms:https://thes.bncf.firenze.sbn.it/">https://thes.bncf.firenze.sbn.it/termine.php?id=13562</dcterms:subject>
+  <dcterms:subject xsi:type="https://www.wikidata.org/wiki/Wikidata:Main_Page">https://www.wikidata.org/wiki/Q1945600</dcterms:subject>
+  <dc:subject>cronaca</dc:subject>
+  <dc:subject>disastro</dc:subject>
+  <dc:subject>Re Baldovino di Belgio</dc:subject>
+  <dcterms:subject xsi:type="dcterms:https://viaf.org/">https://viaf.org/en/viaf/89600861</dcterms:subject>
+  <dc:subject>Van Acker, Achille</dc:subject>
+  <dcterms:subject xsi:type="dcterms:https://viaf.org/">http://viaf.org/viaf/18084946</dcterms:subject>
+  <dc:rights>In Copyright (http://rightsstatements.org/vocab/InC/1.0/) — © Istituto Luce -
+    Cinecittà, all rights reserved</dc:rights>
+  <dc:description>Cinegiornale della testata "La Settimana Incom" (edizione n. 01442, distribuita l'8/16 agosto 1956)
+      dedicato al disastro minerario di Marcinelle (Belgio), avvenuto l'8 agosto 1956 nel pozzo del
+      "Bois du Cazier". Un incendio provocato da un errore di manovra della gabbia di risalita innescò
+      un incendio nel pozzo, che portò alla morte per asfissia di 262 minatori, di cui 136 di origine
+      italiana, emigrati nelle miniere di carbone belghe nell'ambito degli accordi italo-belgi del
+      dopoguerra (Protocollo del 23 giugno 1946). Il servizio documenta le fasi immediatamente successive
+      alla tragedia: l'impianto minerario, i soccorsi, l'attesa dei familiari, l'arrivo delle autorità
+      belghe e il recupero delle vittime.</dc:description>
+</metadata>
+
+<!--Ulteriore arricchimento record di autorità-->

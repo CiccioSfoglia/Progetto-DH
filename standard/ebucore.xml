@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebucore:ebuCoreMain xmlns:ebucore="urn:ebu:metadata-schema:ebuCore_2020"
+                      xmlns:dc="http://purl.org/dc/elements/1.1/"
+                      xmlns:dcterms="http://purl.org/dc/terms/"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="urn:ebu:metadata-schema:ebuCore_2020 http://www.ebu.ch/metadata/schemas/EBUCore/20200610/ebucore.xsd"
+                      lang="it">
+
+  <ebucore:coreMetadata>
+
+    <!-- ID -->
+    <ebucore:identifier>
+      <dc:identifier>I144201</dc:identifier>
+      <ebucore:identifierType typeLabel="Codice filmato"/>
+      <dc:source>Archivio Storico Istituto Luce</dc:source>
+    </ebucore:identifier>
+
+    <ebucore:identifier>
+      <dc:identifier>IL5000032913</dc:identifier>
+      <ebucore:identifierType typeLabel="Codice di identificazione">
+      <dc:source>Europeana</dc:source>
+    </ebucore:identifierType>
+  </ebucore:identifier>
+
+    <!--TITOLI -->
+    <ebucore:title typeLabel="titolo principale">
+      <dc:title>La tragica miniera belga.</dc:title>
+      <dc:source>Europeana</dc:source>
+    </ebucore:title>
+
+    <ebucore:alternativeTitle typeLabel="titolo descrittivo">
+      <dcterms:alternative>Miniere di Marcinelle: più di duecento minatori bloccati nelle viscere della terra.
+      Decine i morti e i feriti. Sul posto accorrono il re Baldovino e il primo ministro Van Acker.</dcterms:alternative>
+      <dc:source>Archivio Storico Istituto Luce</dc:source>
+    </ebucore:alternativeTitle>
+
+    <ebucore:title typeLabel="rubrica">
+      <dc:title>La Settimana Incom</dc:title>
+    </ebucore:title>
+
+    <ebucore:seriesTitle typeLabel="numero di edizione">01442</ebucore:seriesTitle>
+
+    <!-- DESCRIZIONE  -->
+    <ebucore:description typeLabel="sintesi editoriale" lang="it">
+      Cinegiornale della testata "La Settimana Incom" (edizione n. 01442, distribuita il 16 agosto 1956) dedicato al disastro minerario di Marcinelle (Belgio), avvenuto l'8 agosto 1956 nel pozzo del "Bois du Cazier". Un incendio provocato da un errore di manovra della gabbia di risalita innescò un incendio nel pozzo, che portò alla morte per asfissia di 262 minatori, di cui 136 di origine italiana, emigrati nelle miniere di carbone belghe nell'ambito degli accordi italo-belgi del dopoguerra (Protocollo del 23 giugno 1946). Il servizio documenta le fasi immediatamente successive alla tragedia: l'impianto minerario, i soccorsi, l'attesa dei familiari, l'arrivo delle autorità belghe e il recupero delle vittime.
+    </ebucore:description>
+
+    <ebucore:description typeLabel="descrizione delle sequenze / shot list" lang="it">
+      <ebucore:part sequenceNumber="1">
+        <ebucore:description>Impianto per l'estrazione del carbone di Marcinelle (inquadratura d'insieme della miniera).</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="2">
+        <ebucore:description>Fumo nero che esce da un pozzo della miniera, segno dell'incendio in corso.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="3">
+        <ebucore:description>Soldati dell'esercito belga scaricano da un camion le attrezzature per i soccorsi.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="4">
+        <ebucore:description>Uomini volontari si calano nella miniera per prestare soccorso ai minatori intrappolati.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="5">
+        <ebucore:description>I familiari dei minatori in attesa sul piazzale antistante la miniera.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="6">
+        <ebucore:description>Uomini radunati dietro le sbarre dei cancelli di ingresso della miniera.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="7">
+        <ebucore:description>Il re del Belgio Baldovino e il primo ministro Achille Van Acker giungono sul luogo della sciagura.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="8">
+        <ebucore:description>I cadaveri dei minatori vengono trasportati in barella fuori dalla miniera.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="9">
+        <ebucore:description>Uomini feriti trasportati in barella.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="10">
+        <ebucore:description>Un uomo, sopraffatto dal dolore, perde il controllo e si getta a terra urlando.</ebucore:description>
+      </ebucore:part>
+      <ebucore:part sequenceNumber="11">
+        <ebucore:description>I soccorsi continuano ininterrottamente per tutta la notte.</ebucore:description>
+      </ebucore:part>
+      <dc:source>Archivio Storico Istituto Luce</dc:source>
+    </ebucore:description>
+
+    <!-- SOGGETTAZIONE -->
+    <ebucore:subject>
+      <dc:subject>industria estrattiva</dc:subject>
+    </ebucore:subject>
+    <ebucore:subject>
+      <dc:subject>industria mineraria</dc:subject>
+    </ebucore:subject>
+    <ebucore:subject>
+      <dc:subject>cronaca</dc:subject>
+    </ebucore:subject>
+    <ebucore:subject>
+      <dc:subject>disastro di Marcinelle</dc:subject>
+    </ebucore:subject>
+    <ebucore:subject>
+      <dc:subject>emigrazione italiana in Belgio</dc:subject>
+    </ebucore:subject>
+    <ebucore:subject>
+      <dc:subject>Carbone</dc:subject>
+    </ebucore:subject>
+    <ebucore:subject>
+      <dc:subject>soccorsi</dc:subject>
+    </ebucore:subject>
+
+    <ebucore:genre typeLabel="tipo di oggetto">
+      <dc:type>Cinegiornale</dc:type>
+      <ebucore:identifier>
+        <dc:identifier>https://www.wikidata.org/wiki/Q735478</dc:identifier>
+        <ebucore:identifier typeLabel="Wikidata"/>
+    </ebucore:identifier>
+    <ebucore:identifier>
+        <dc:identifier>http://vocab.getty.edu/aat/300263837</dc:identifier>
+        <ebucore:identifierType typeLabel="Getty AAT"/>
+      </ebucore:identifier>
+      <ebucore:identifier>
+        <dc:identifier>https://id.loc.gov/authorities/subjects/sh85091639</dc:identifier>
+        <ebucore:identifierType typeLabel="LCSH"/>
+      </ebucore:identifier>
+      <ebucore:identifier>
+        <dc:identifier>https://thes.bncf.firenze.sbn.it/termine.php?id=17417</dc:identifier>
+        <ebucore:identifierType typeLabel="Nuovo Soggettario BNCF"/>
+      </ebucore:identifier>
+    </ebucore:genre>
+
+    <!-- SOGGETTI CORRELATI (persone/entità) -->
+    <ebucore:subject typeLabel="persona">
+      <dc:subject>Baldovino I del Belgio (Re dei Belgi)</dc:subject>
+      <ebucore:identifier>
+        <dc:identifier>https://www.wikidata.org/wiki/Q12976</dc:identifier>
+        <ebucore:identifierType typeLabel="Wikidata"/>
+      </ebucore:identifier>
+      <ebucore:identifier>
+        <dc:identifier>https://viaf.org/viaf/89600861</dc:identifier>
+        <ebucore:identifierType typeLabel="VIAF"/>
+      </ebucore:identifier>
+      <ebucore:identifier>
+        <dc:identifier>https://id.loc.gov/authorities/names/n80113792</dc:identifier>
+        <ebucore:identifierType typeLabel="LCNAF"/>
+      </ebucore:identifier>
+
+    </ebucore:subject>
+    <ebucore:subject typeLabel="persona">
+      <dc:subject>Achille Van Acker (Primo ministro del Belgio)</dc:subject>
+      <ebucore:identifier>
+        <dc:identifier>https://www.wikidata.org/wiki/Q14997</dc:identifier>
+        <ebucore:identifierType typeLabel="Wikidata"/>
+      </ebucore:identifier>
+      <ebucore:identifier>
+        <dc:identifier>https://viaf.org/viaf/18084946</dc:identifier>
+        <ebucore:identifierType typeLabel="VIAF"/>
+      </ebucore:identifier>
+    <ebucore:identifier>
+        <dc:identifier>https://id.loc.gov/authorities/names/n78095605</dc:identifier>
+        <ebucore:identifierType typeLabel="LCNAF"/>
+      </ebucore:identifier>
+    </ebucore:subject>
+
+    <!--  COPERTURA SPAZIO-TEMPORALE  -->
+    <ebucore:coverage>
+        <ebucore:spatial>
+          <ebucore:name typeLabel="luogo dell'evento">Marcinelle, Charleroi, Belgio</ebucore:name>
+            <ebucore:identifier>
+                <dc:identifier>https://www.wikidata.org/wiki/Q785440</dc:identifier>
+                <ebucore:identifierType typeLabel="Wikidata"/>
+            </ebucore:identifier>
+            <ebucore:identifier>
+                <dc:identifier>https://www.geonames.org/2791726</dc:identifier>
+                <ebucore:identifierType typeLabel="GeoNames"/>
+            </ebucore:identifier>
+        </ebucore:spatial>
+        <ebucore:spatial typeLabel="sito specifico dell'evento">
+            <ebucore:name>Bois du Cazier</ebucore:name>
+                <ebucore:identifier>
+                    <dc:identifier>https://www.wikidata.org/wiki/Q891068</dc:identifier>
+                    <ebucore:identifierType typeLabel="Wikidata"/>
+                </ebucore:identifier>
+        </ebucore:spatial>
+        <ebucore:spatial>
+            <ebucore:name typeLabel="paese di produzione">Italia</ebucore:name>
+        </ebucore:spatial>
+        <ebucore:temporal>
+            <ebucore:name typeLabel="data dell'evento">1956-08-08</ebucore:name>
+        </ebucore:temporal>
+        <ebucore:temporal>
+            <ebucore:name typeLabel="data di distribuzione">1956-08-16</ebucore:name>
+        </ebucore:temporal>
+    </ebucore:coverage>
+
+    <!-- ============================== RESPONSABILITÀ / RUOLI ============================== -->
+    <ebucore:creator>
+      <ebucore:contactDetails>
+        <ebucore:name typeLabel="casa di produzione">Incom - Industria Corti Metraggi</ebucore:name>
+      </ebucore:contactDetails>
+      <ebucore:role typeLabel="produttore"/>
+    </ebucore:creator>
+
+    <ebucore:publisher>
+      <ebucore:contactDetails>
+        <ebucore:name typeLabel="ente conservatore">Istituto Luce Cinecittà</ebucore:name>
+        <ebucore:identifier>
+          <dc:identifier>https://www.wikidata.org/wiki/Q781183</dc:identifier>
+          <ebucore:identifierType typeLabel="Wikidata"/>
+        </ebucore:identifier>
+        <ebucore:identifier>
+          <dc:identifier>https://viaf.org/viaf/312739479</dc:identifier>
+          <ebucore:identifierType typeLabel="VIAF"/>
+        </ebucore:identifier>
+        <ebucore:identifier>
+          <dc:identifier>https://id.loc.gov/authorities/names/n84093813</dc:identifier>
+          <ebucore:identifierType typeLabel="LCNAF"/>
+        </ebucore:identifier>
+
+      </ebucore:contactDetails>
+    </ebucore:publisher>
+
+    <!--  LINGUA -->
+    <dc:language>it</dc:language>
+    <ebucore:language typeLabel="lingua del commento parlato">
+      <ebucore:languageCode>ita</ebucore:languageCode>
+    </ebucore:language>
+
+    <!-- FORMATO / DURATA  -->
+    <ebucore:format>
+      <ebucore:videoFormat>
+        <ebucore:duration>
+          <ebucore:normalPlayTime>PT1M44S</ebucore:normalPlayTime>  <!--ISO 8601 standard for describing time intervals-->
+        </ebucore:duration>
+      </ebucore:videoFormat>
+      <ebucore:medium typeLabel="supporto originale">pellicola cinematografica 35mm, sonoro</ebucore:medium>
+      <ebucore:videoFormat typeLabel="colore">
+        <ebucore:name>bianco e nero</ebucore:name>
+            <ebucore:identifier>
+                <dc:identifier>https://www.wikidata.org/wiki/Q838368</dc:identifier>
+                 <ebucore:identifierType typeLabel="Wikidata"/>
+            </ebucore:identifier>
+            <ebucore:identifier>
+                <dc:identifier>http://vocab.getty.edu/page/aat/300127344</dc:identifier>
+                <ebucore:identifierType typeLabel="Getty AAT"/>
+            </ebucore:identifier>
+      </ebucore:videoFormat>
+    </ebucore:format>
+
+    <!-- DIRITTI -->
+    <ebucore:rights>
+      <ebucore:rightsHolder>
+        <ebucore:contactDetails>
+          <ebucore:name>Istituto Luce - Cinecittà</ebucore:name>
+        </ebucore:contactDetails>
+      </ebucore:rightsHolder>
+      <ebucore:rightsClarificationURL>http://rightsstatements.org/vocab/InC/1.0/</ebucore:rightsClarificationURL>
+      <dc:rights>Istituto Luce - Cinecittà, All rights reserved (In Copyright)</dc:rights>
+    </ebucore:rights>
+
+    <!--  RELAZIONI / FONTI -->
+    <ebucore:isPartOf typeLabel="rubrica">
+      <dc:relation>La Settimana Incom (numero 01442 del 16/08/1956)</dc:relation>
+    </ebucore:isPartOf>
+
+    <ebucore:isPartOf>
+      <dc:relation>Europeana XX: Century of Change</dc:relation>
+      <dc:source>Europeana</dc:source>
+    </ebucore:isPartOf>
+
+    <ebucore:hasRelatedInformation typeLabel="aggregatore">
+      <ebucore:name>The European Film Gateway (EFG)</ebucore:name>
+    </ebucore:hasRelatedInformation>
+
+    <ebucore:isReferencedBy typeLabel="pagina di pubblicazione">
+        <dcterms:isReferencedBy>
+      https://www.youtube.com/watch?v=fo9t1zr5ci4</dcterms:isReferencedBy>
+      <dc:source>Youtube</dc:source>
+    </ebucore:isReferencedBy>
+    <ebucore:isReferencedBy typeLabel="pagina di pubblicazione">
+        <dcterms:isReferencedBy>https://www.europeana.eu/it/item/08602/IL5000032913</dcterms:isReferencedBy>
+        <dc:source>Europeana</dc:source>
+    </ebucore:isReferencedBy>
+    <ebucore:isReferencedBy typeLabel="pagina di pubblicazione">
+    <dcterms:isReferencedBy>https://patrimonio.archivioluce.com/luce-web/detail/IL5000032913/2/miniere-marcinelle-piu-duecento-minatori-bloccati-nelle-viscere-della-terra-decine-i-morti-e-i-feriti-sul-posto-accorrono-re.html</dcterms:isReferencedBy>
+        <dc:source>Archivio Storico Istituto Luce</dc:source>
+    </ebucore:isReferencedBy>
+
+  </ebucore:coreMetadata>
+
+</ebucore:ebuCoreMain>

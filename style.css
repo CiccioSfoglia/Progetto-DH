@@ -25,7 +25,6 @@ header img {
 
 /*NAVBAR*/
 div.navbar {
-  /*provare a rendere sticky se c'è tempo*/
   overflow: hidden;
   background-color: black;
 }
@@ -139,6 +138,8 @@ div.navbar {
 
 
 .button {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
   display: block;
   border: none;
   color: black;
@@ -267,7 +268,7 @@ div.navbar {
   color: #444;
   cursor: pointer;
   font-size: 25px;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Times New Roman", Times, serif;
   padding: 18px;
   margin-left: 15%;
   margin-right: 15%;
@@ -373,7 +374,6 @@ ul.breadcrumb li a:hover {
   display: none;
 }
 
-/* Clear floats after rows */
 .row:after  {
   content: "";
   display: table;
@@ -384,7 +384,7 @@ ul.breadcrumb li a:hover {
   color: white;
   background-color: black;
   padding: 10px;
-  height: 425px;
+  height: 500px;
 }
 
 .content img {
@@ -392,6 +392,9 @@ ul.breadcrumb li a:hover {
   height:60%;
 }
 
+.content a {
+  color: grey;
+}
 span {
   color: gray;
 }
@@ -411,9 +414,6 @@ span {
   text-decoration: none;
 }
 
-.default:hover {
-  background-color: #ddd;
-}
 
 /* How do I deactivate a button??? */
 .btn.active {
@@ -440,6 +440,10 @@ span {
   text-align: center;
 }
 
+.card a {
+  color: #666;
+}
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -460,4 +464,71 @@ img.item {
   height: 60%;
   float: right;
   overflow: hidden;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  font-size: 18px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.meta-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.meta {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #393939;
+  padding: 14px 16px;
+}
+
+table {
+font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 20px 0 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td a {
+  color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: black;
 }

@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="Immagini/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -27,6 +28,7 @@
       				<a href="https://timeline.knightlab.com/" title="Cronologia">Cronologia</a>
               <a href="https://leafletjs.com/index.html" title="Luoghi">Luoghi</a>
       				<a href="#" title="Persone">Persone</a>
+      				<a href="#" title="Ente Conservatore">Enti conservatori</a>
     				</div>
   				</div>
   				<a href="data.html" class="active" title="Dati">Dati</a>
@@ -38,7 +40,194 @@
         </div>
 	</nav>
 	<section>
-		
+		<div>	
+			<h2 style="padding:10px;"> <a href="standard/itemcollection.csv">Collezione di oggetti</a></h2>	
+			<table>
+					  <tr>
+					    <th>ID</th>
+					    <th>Titolo</th>
+					    <th>Tipo</th>
+					    <th>Descrizione</th>
+					    <th>Data</th>
+					  </tr>
+					  <tr>
+					    <td>VID_001</td>
+					    <td>La tragica miniera belga</td>
+					    <td>Cinegiornale</td>
+					    <td>Cinegiornale della Settimana InCom che racconta al pubblico italiano gli eventi successivi al disastro di Marcinelle</td>
+					    <td>1956</td>
+					  </tr>
+					  <tr>
+					    <td>VID_002</td>
+					    <td>Telegiornale dell' 8/8/1956 (Catastrofe di Marcinelle)</td>
+					    <td>Videoclip</td>
+					    <td>Sequenze di RTBF che mostrano i momenti successivi alla tragedia, comprendono anche un'intervista a un minatore</td>
+					    <td>1956</td>
+					  </tr>
+					  <tr>
+					    <td>VID_003</td>
+					    <td>Telegiornale (Catastrofe di Bois du Cazier)</td>
+					    <td>Videoclip</td>
+					    <td>Filmato contenete interviste effettuate da RTBF la notte dell'8 agosto 1956</td>
+					    <td>1956</td>
+					  </tr>
+					  <tr>
+					    <td>VID_004</td>
+					    <td>Inaugurazione del monumento ai minatori caduti a Marcinelle</td>
+					    <td>Cinegiornale</td>
+					    <td>Cinegiornale riportante notizie da tutto il mondo: Sezione 1 riguardante la commemorazione del primo anniversario della strage di Marcinelle</td>
+					    <td>1957</td>
+					  </tr>
+					  <tr>
+					    <td>PIC_001</td>
+					    <td>Fumi in fuoriuscita dai pozzi di risalita d'aria</td>
+					    <td>Foto</td>
+					    <td>Immagine del giorno del disastro che mostra il fumo fuoriuscente dai pozzi incendiati</td>
+					    <td>1956</td>
+					  </tr>
+					  <tr>
+					    <td>PIC_002</td>
+					    <td>Entrata della miniera di carbone</td>
+					    <td>Foto</td>
+					    <td>Immagine della via d'ingresso al pozzo di Bois du Cazier la mattina del disastro, con la folla che accorre verso la miniera circondata dal fumo</td>
+					    <td>1956</td>
+					  </tr>
+					  <tr>
+					    <td>PIC_003</td>
+					    <td>Minatori trasportano la bara di Alphonse Godart dopo il suo funerale a Pironchamps</td>
+					    <td>Foto</td>
+					    <td>Immagine proveniente dal funerale di Alphonse Godart, una delle vittime belghe del disastro, in cui i suoi colleghi, in uniforme da lavoro, trasportano la bara</td>
+					    <td>1956</td>
+					  </tr>
+					  <tr>
+					    <td>MEM_001</td>
+					    <td>Bois du Cazier, luogo di memoria</td>
+					    <td>Dipinto</td>
+					    <td>Dipinto ad olio di stile astratto rappresentante il pozzo di Bois du Cazier</td>
+					    <td>2016</td>
+					  </tr>
+					  <tr>
+					    <td>MEM_002</td>
+					    <td>Minatore trasporta il corpo di un collega morto</td>
+					    <td>Scultura</td>
+					    <td>Statua realista rappresentante un minatore con in braccio un collega che appare morente</td>
+					    <td>2010</td>
+					  </tr>
+					  <tr>
+					    <td>DOC_001</td>
+					    <td>Centrale di salvataggio di Marcinelle. Istruzioni di salvataggio in caso di incidente grave</td>
+					    <td>Documento</td>
+					    <td>Documento d'emergenza che indica ai minatori come comportarsi in caso di incidente su posto di lavoro, oggi parte di un'esposizione museale</td>
+					    <td>1917-1936</td>
+					  </tr>
+					  <tr>
+					    <td>JOU_001</td>
+					    <td>"270 minatori sepolti vivi nel Belgio 139 sono italiani"</td>
+					    <td>Giornale</td>
+					    <td>Edizione del 9 agosto dell'unità riportante le prime notizie del disastro giunte dal Belgio il giorno precedente</td>
+					    <td>1956</td>
+					  </tr>
+					  <tr>
+					    <td>JOU_002</td>
+					    <td>Più di 250 minatori restano bloccati dal fuoco nel pozzo del Cazier</td>
+					    <td>Giornale</td>
+					    <td>Edizione del 9 agosto del quotidiano belga Le Soir riportante le prime notizie sul disastro</td>
+					    <td>1956</td>
+					  </tr>
+					</table>
+			</div>	
+	</section>
+	<section>
+		<div>
+			<h2 style="padding: 10px;"><a href="standard/authority.csv" title="Scarica file CSV">Controllo di Autorità</a></h2>
+				<table>
+				  <tr>
+				    <th>ID</th>
+				    <th>Nome standard</th>
+				    <th>Tipo</th>
+				    <th>Descrizione</th>
+				    <th>Record di autorità</th>
+				  </tr>
+				  <tr>
+				    <td>PERS_001</td>
+				    <td>Re Baldovino di Belgio</td>
+				    <td>Persona</td>
+				    <td>Sovrano del Belgio dal 1951 al 1993, al trono da 5 anni quando ha luogo la tragedia.</td>
+				    <td>VIAF: <a href="http://viaf.org/viaf/89600861">89600861</a></td>
+				  </tr>
+				  <tr>
+				    <td>PERS_002</td>
+				    <td>Achille Van Acker</td>
+				    <td>Persona</td>
+				    <td>Primo ministro belga per 3 volte tra il 1945 e il 1958. Ha un ruolo importante nel boom migratorio ed è il primo ministro in carica durante la tragedia.</td>
+				    <td>VIAF: <a href="http://viaf.org/viaf/18084946">18084946</a></td>
+				  </tr>
+				  <tr>
+				    <td>LOC_001</td>
+				    <td>Marcinelle</td>
+				    <td>Luogo</td>
+				    <td>Località belga oggi facente parte del comune di Charleroi. Nel dopoguerra comune a vocazione industriale in cui diverse centinaia di operai lavoravano e dimoravano con le loro famiglie.</td>
+				    <td>
+				      TGN: <a href="http://vocab.getty.edu/page/tgn/7251628">7251628</a><br>
+				      Geonames: <a href="https://www.geonames.org/2791726/marcinelle.html">2791726</a>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td>LOC_002</td>
+				    <td>Charleroi</td>
+				    <td>Luogo</td>
+				    <td>Città belga situata al centro del vasto bacino carbonifero del Borinage, oggi non più sfruttato. Dal 1977 ha inglobato il comune di Marcinelle.</td>
+				    <td>
+				      TGN: <a href="http://vocab.getty.edu/page/tgn/7007869">7007869</a><br>
+				      Geonames: <a href="https://www.geonames.org/2800481/charleroi.html">2800481</a>
+				    </td>
+				  </tr>
+				  <tr>
+				    <td>IST_001</td>
+				    <td>Archivio storico Luce</td>
+				    <td>Istituzione</td>
+				    <td>Archivio pubblico costituito da un vasto patrimonio di fondi cinematografici, fotografici e documentari utili a ricostruire la storia d'Italia nel Novecento.</td>
+				    <td>VIAF: <a href="http://viaf.org/viaf/153856420">153856420</a></td>
+				  </tr>
+				  <tr>
+				    <td>IST_002</td>
+				    <td>Radio-Télévision Belge de la Communauté française</td>
+				    <td>Istituzione</td>
+				    <td>Impresa pubblica che si occupa di diffusione radio e televisiva nella comunità francofona belga.</td>
+				    <td>VIAF: <a href="http://viaf.org/viaf/141905751">141905751</a></td>
+				  </tr>
+				  <tr>
+				    <td>IST_003</td>
+				    <td>Le Bois du Cazier</td>
+				    <td>Istituzione</td>
+				    <td>Sito minerario attivo fino al 1967. Oggi museo e monumento nazionale.</td>
+				    <td>VIAF: <a href="http://viaf.org/viaf/241245127">241245127</a></td>
+				  </tr>
+				  <tr>
+				    <td>IST_004</td>
+				    <td>Royal Library of Belgium</td>
+				    <td>Istituzione</td>
+				    <td>Biblioteca nazionale che raccoglie tutte le pubblicazioni belghe.</td>
+				    <td>VIAF: <a href="http://viaf.org/viaf/312739455">312739455</a></td>
+				  </tr>
+				  <tr>
+				    <td>IST_005</td>
+				    <td>La Settimana InCom</td>
+				    <td>Istituzione</td>
+				    <td>Trasmissione televisiva in onda in Italia dal 1946 al 1965</td>
+				    <td>Wikidata: <a href="https://www.wikidata.org/wiki/Q17635167">Q17635167</a></td>
+				  </tr>
+
+				  <tr>
+				    <td>TEC_001</td>
+				    <td>Filmato in bianco e nero</td>
+				    <td>Tecnica</td>
+				    <td>Tecnica di conservazione immagini più diffusa prima della diffusione della pellicola a colori.</td>
+				    <td>AAT: <a href="http://vocab.getty.edu/page/aat/300127344">300127344</a></td>
+				  </tr>
+				 </div>
+		</table>
+</section>
 	</section>
 	<footer>
 		<div>

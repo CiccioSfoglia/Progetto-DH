@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets xmlns="http://www.loc.gov/METS/" OBJID="IL5000032913">
+
+  <metsHdr CREATEDATE="2020-11-22T21:25:10Z" LASTMODDATE="2022-04-13T07:48:20Z">
+    <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+      <name>Istituto Luce - Cinecittà</name>
+    </agent>
+    <agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+      <name>Europeana / The European Film Gateway</name>
+    </agent>
+  </metsHdr>
+
+  <dmdSec ID="dmd001">
+    <mdWrap MDTYPE="DC">
+      <xmlData>
+        <!-- see Section 1: Dublin Core record -->
+      </xmlData>
+    </mdWrap>
+  </dmdSec>
+
+  <dmdSec ID="dmd002">
+    <mdWrap MDTYPE="OTHER" OTHERMDTYPE="PBCORE">
+      <xmlData>
+        <!-- Pbcore description-->
+      </xmlData>
+    </mdWrap>
+  </dmdSec>
+
+   <dmdSec ID="dmd003">
+    <mdRef LOCTYPE="#" MDTYPE="OTHER" OTHERMDTYPE="MPEG7"
+           xlink:href="IL5000032913_mpeg7.xml"
+           xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </dmdSec>
+
+  <amdSec ID="amd001">
+    <techMD ID="tech001">
+      <mdWrap MDTYPE="OTHER" OTHERMDTYPE="TECHNICAL">
+        <xmlData>
+          <format>video/film, digitized</format>
+          <digitizationDate>2020-11-22</digitizationDate>
+          <deliveryLocation>http://youtu.be/fo9t1zr5ci4</deliveryLocation>
+          <note>Resolution, codec, frame rate, and duration not disclosed by source
+            record; require direct file inspection.</note>
+        </xmlData>
+      </mdWrap>
+    </techMD>
+    <rightsMD ID="rights001">
+      <mdWrap MDTYPE="OTHER" OTHERMDTYPE="RIGHTS">
+        <xmlData>
+          <rightsStatement>http://rightsstatements.org/vocab/InC/1.0/</rightsStatement>
+          <rightsHolder>Istituto Luce - Cinecittà</rightsHolder>
+        </xmlData>
+      </mdWrap>
+    </rightsMD>
+  </amdSec>
+
+  <fileSec>
+    <fileGrp USE="reference">
+      <file ID="file001" MIMETYPE="video/mp4">
+        <FLocat LOCTYPE="URL" xlink:href="http://youtu.be/fo9t1zr5ci4"
+                xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+
+   <structMap TYPE="physical">
+
+    <!-- DMDID rimanda al file MPEG-7, anchors it to a real time offset in the
+actual video file (fptr/area BETYPE="TIME") -->
+    <div TYPE="newsreel" LABEL="La tragica miniera belga." DMDID="dmd001 dmd002">
+
+      <div TYPE="segment" LABEL="Title card" ORDER="1" DMDID="dmd003" ID="shot-001">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:00:00" END="T00:00:03" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Marcinelle plant, frontal establishing shot" ORDER="2" DMDID="dmd003" ID="shot-002">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:00:04" END="T00:00:06" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Black smoke from shaft no. 1" ORDER="3" DMDID="dmd003" ID="shot-003">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:00:07" END="T00:00:10" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Rescue teams arrive and descend into the mine" ORDER="4" DMDID="dmd003" ID="shot-004">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:00:11" END="T00:00:30" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Relatives waiting outside the gates" ORDER="5" DMDID="dmd003" ID="shot-005">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:00:31" END="T00:00:40" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Baldovino di Belgio and Van Acker arrive on site" ORDER="6" DMDID="dmd003" ID="shot-006">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:00:41" END="T00:00:53" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Bodies and injured carried out on stretchers" ORDER="7" DMDID="dmd003" ID="shot-007">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:00:54" END="T00:01:21" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Man in distress restrained by authorities" ORDER="8" DMDID="dmd003" ID="shot-008">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:01:22" END="T00:01:26" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Injured man carried on stretcher" ORDER="9" DMDID="dmd003" ID="shot-009">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:01:27" END="T00:01:31" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+      <div TYPE="segment" LABEL="Night rescue operations continue" ORDER="10" DMDID="dmd003" ID="shot-010">
+        <fptr FILEID="file001">
+          <area BEGIN="T00:01:32" END="T00:01:44" BETYPE="TIME"/>
+        </fptr>
+      </div>
+
+    </div>
+  </structMap>
+
+</mets>

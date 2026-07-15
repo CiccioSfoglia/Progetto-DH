@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="Immagini/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -27,6 +28,7 @@
       				<a href="https://timeline.knightlab.com/" title="Cronologia">Cronologia</a>
               <a href="https://leafletjs.com/index.html" title="Luoghi">Luoghi</a>
       				<a href="#" title="Persone">Persone</a>
+      				<a href="#" title="Ente Conservatore">Enti conservatori</a>
     				</div>
   				</div>
   				<a href="data.html" title="Dati">Dati</a>
@@ -54,19 +56,19 @@
         		<h2>Vedi anche:</h2>
         			<div class="card">
         				<img src="Immagini/Baudouin.png" style="width:100%">
-        				<p>Re Baldovino di Belgio</p> 
+        				<p><a href="#">Re Baldovino di Belgio</a></p> 
         			</div>
         			<div class="card">
         				<img src="Immagini/VanAcker.png" style="width:100%">
-        				<p>Achille VanAcker</p>
+        				<p><a href="#">Achille VanAcker</a></p>
         			</div>
         			<div class="card">
         				<img src="Immagini/Marcinelle.png" style="width:100%">
-        				<p>Marcinelle</p>
+        				<p><a href="#">Marcinelle</a></p>
         			</div>
         			<div class="card">
         				<img src="Immagini/boisducazier.png" style="width:100%">
-        				<p>Bois du Cazier</p>
+        				<p><a href="#">Bois du Cazier</a></p>
         			</div>
         	</div>
 		</div>
@@ -80,22 +82,205 @@
 		    </div>
 		    <div class="card">
 		    	<h2>Accedi alla risorsa tramite i link:</h2><br>
-		    	<a href="https://patrimonio.archivioluce.com/luce-web/detail/IL5000032913/2/miniere-marcinelle-piu-duecento-minatori-bloccati-nelle-viscere-della-terra-decine-i-morti-e-i-feriti-sul-posto-accorrono-re.html" class="button default" title="Istituto Luce">ARCHIVIO STORICO ISTITUTO LUCE</a>
-		    	<a href="https://www.europeana.eu/it/item/08602/IL5000032913" class="button default" title="europeana">EUROPEANA</a>
-		    	<a href="" class="button default" title="european film gateway">EUROPEAN FILM GATEWAY</a>
+		    	<a href="https://patrimonio.archivioluce.com/luce-web/detail/IL5000032913/2/miniere-marcinelle-piu-duecento-minatori-bloccati-nelle-viscere-della-terra-decine-i-morti-e-i-feriti-sul-posto-accorrono-re.html" class="button default" title="Istituto Luce" target="_blank">ARCHIVIO STORICO ISTITUTO LUCE</a>
+		    	<a href="https://www.europeana.eu/it/item/08602/IL5000032913" class="button default" title="europeana" target="_blank">EUROPEANA</a>
 		    </div>
 			<div class="MetadataContainer">
-				<h2>Metadati</h2>
-           			<p><span class="dc.title">Titolo:</span> La tragica miniera belga
-            		<p><span class="dc.creator">Creatore:</span> Industria CortiMetraggi (INCOM) <sup><a href="" title="">Wikidata?</a></sup></p>
-            		<p><span class="dc.coverage">Luogo di creazione:</span> Marcinelle <sup><a href="#" title="Vai alla mappa dei luoghi">Visualizza sulla mappa</a></sup></p>
-            		<p><span class="dc.date">Data di creazione:</span> 1956 <sup><a href="#" title="Vai alla linea del tempo">Visualizza sulla linea del tempo</a></sup></p>
-            		<p><span class="dc.keyword">Parole chiave:</span> <a href="#" title="Visualizza tutti i dipinti che condividono questa parola chiave">Amanti</a></p>
-            		<p><span class="dc.type">Cinegiornale</span> <a href=""></a>
-            		<p><span class="dc.">
-            		<p><span class="dc.">
-            		<p><span class="dc.">
-            		<p><span class="dc.">
+					<div class="tab">
+					  <button class="tablinks" onclick="openCity(event, 'Metadata')">Metadati</button>
+					  <button class="tablinks" onclick="openCity(event, 'ExtMetadata')">Metadati Estesi</button>
+					  <button class="tablinks" onclick="openCity(event, 'Transcription')">Trascrizione</button>
+					</div>
+					<div id="Metadata" class="tabcontent">
+						<div class="meta-header">
+						  <h3>Metadati</h3>
+						  <a href="standard/dcitem.xml" target="_blank" class="meta" title="File DublinCore" download>DC/XML</a>
+						</div>
+						<div>
+						  <p><span class="dc.title">Titolo:</span> La tragica miniera belga.</p>
+						  <p><span class="dcterms:abstract">Abstract:</span> Miniere di Marcinelle: più di duecento minatori bloccati nelle viscere della terra. Decine i morti e i feriti. Sul posto accorrono il re Baldovino e il primo ministro Van Acker.</p>
+						  <p><span class="dc.creator">Creatore:</span> Incom (La Settimana Incom) <sup><a href="https://www.wikidata.org/wiki/Q17635167" title="Vai alla scheda su Wikidata" target="_blank">Wikidata</a></sup></p>
+						  <p><span class="dcterms.spatial">Luogo di creazione:</span> Marcinelle, Belgio <sup><a href="#" title="Vai alla mappa dei luoghi">Visualizza sulla mappa</a></sup></p>
+						  <p><span class="dc.date">Data di creazione:</span> 1956 <sup><a href="#" title="Vai alla linea del tempo">Visualizza sulla linea del tempo</a></sup></p>
+						  <p><span class="dc.type">Tipo di oggetto:</span> Cinegiornale <sup><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=17417" title="Authority Record" target="_blank">BNCF</a></sup></p>
+						  <p><span class="dc.format">Tecnica:</span> video/film (digitalizzato, bianco e nero, sonoro, altri parametri tecnici originali non specificati nel record di origine)</p>
+						  <p><span class="dc.identifier">Codice identificativo:</span> VID_001</p>
+						  <p><span class="dc.identifier">Identificativi esterni:</span> IL5000032913 <sup><a href="https://www.europeana.eu/it/item/08602/IL5000032913" title="Vai alla scheda su Europeana" target="_blank">Vedi su Europeana</a></sup>, I144201 <sup><a href="https://patrimonio.archivioluce.com/luce-web/detail/IL5000032913/2/miniere-marcinelle-piu-duecento-minatori-bloccati-nelle-viscere-della-terra-decine-i-morti-e-i-feriti-sul-posto-accorrono-re.html?startPage=0&jsonVal={%22jsonVal%22:{%22query%22:[%22I144201%22],%22fieldDate%22:%22dataNormal%22,%22_perPage%22:20}}" title="Istituto Luce" target="_blank">Vedi su Istituto Luce</a></sup></p>
+						  <p><span class="dc.publisher">Pubblicato da:</span> Istituto Luce - Cinecittà</p>
+						  <p><span class="dc.source">Fonte:</span> <a href="https://www.europeana.eu/it/item/08602/IL5000032913" title="Vai a Europeana" target="_blank">Europeana</a></p>
+						  <p><span class="dc.language">Lingua:</span> Italiano (it)</p>
+						  <p><span class="dcterms.isPartOf">Fa parte della raccolta:</span> Europeana XX: Century of Change</p>
+						  <p><span class="dc.relation">Relazione:</span> aggregato tramite <a href="#" title="Europeana">Europeana</a>, <a href="https://www.europeanfilmgateway.eu/" title="The European Film Gateway" target="_blank">The European Film Gateway</a></p>
+						  <p><span class="dc.subject">Soggetto:</span> <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">industria estrattiva</a>, <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">cronaca</a>, <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">disastro</a>, <a href="#" title="Visualizza la scheda Persona">Baldovino di Belgio</a>, <a href="#" title="Visualizza la scheda Persona">Achille Van Acker</a></p>
+						  <p><span class="dc.rights">Diritti:</span> In Copyright (<a href="http://rightsstatements.org/vocab/InC/1.0/" target="_blank">rightsstatements.org/vocab/InC/1.0/</a>) — © Istituto Luce - Cinecittà, tutti i diritti riservati</p>
+						</div>
+
+						<div>
+						  <h3 class="dc.description" style="background-color: white; padding: 5px;">Descrizione</h3>
+						  <p>Cinegiornale della testata <strong>"La Settimana Incom"</strong> (edizione n. 01442, distribuita l'8/16 agosto 1956)
+      dedicato al disastro minerario di Marcinelle (Belgio), avvenuto l'8 agosto 1956 nel pozzo del
+      <strong>"Bois du Cazier"</strong>. Un incendio provocato da un errore di manovra della gabbia di risalita innescò
+      un incendio nel pozzo, che portò alla morte per asfissia di <strong>262 minatori, di cui 136 di origine
+      italiana</strong>, emigrati nelle miniere di carbone belghe nell'ambito degli accordi italo-belgi del
+      dopoguerra (<strong>Protocollo del 23 giugno 1946</strong>). Il servizio documenta le fasi immediatamente successive
+      alla tragedia: l'impianto minerario, i soccorsi, l'attesa dei familiari, l'arrivo delle autorità
+      belghe e il recupero delle vittime.</p>
+						</div>
+					</div>
+
+					<div id="ExtMetadata" class="tabcontent">
+						<div class="meta-header">
+					  	<h3>Metadati Estesi</h3>
+					  	<a href="standard/ebucore.xml" target="_blank" class="meta" title="File DublinCore">EBU Core/XML</a>
+					  </div>
+					  	<section>
+							    <h2>Identificativi</h2>
+
+							    <p><span>Codice filmato Archivio Storico Istituto Luce:</span>I144201 <sup><a href="https://patrimonio.archivioluce.com/luce-web/detail/IL5000032913/2/miniere-marcinelle-piu-duecento-minatori-bloccati-nelle-viscere-della-terra-decine-i-morti-e-i-feriti-sul-posto-accorrono-re.html?startPage=0&jsonVal={%22jsonVal%22:{%22query%22:[%22I144201%22],%22fieldDate%22:%22dataNormal%22,%22_perPage%22:20}}" title="Istituto Luce" target="_blank">Vedi su Istituto Luce</a></sup></p>
+							    <p><span>Collezione di identificazione:</span> IL5000032913 <sup><a href="https://www.europeana.eu/it/item/08602/IL5000032913" title="Vai alla scheda su Europeana" target="_blank">Vedi su Europeana</a></sup></p>
+							</section>
+
+							<section>
+							    <h2>Titoli</h2>
+
+							    <p><span>Titolo principale:</span> La tragica miniera belga.</p>
+
+							    <p><span>Titolo descrittivo:</span> Miniere di Marcinelle: più di duecento minatori bloccati nelle viscere della terra. Decine i morti e i feriti. Sul posto accorrono il re Baldovino e il primo ministro Van Acker.</p>
+
+							    <p><span>Testata:</span> La Settimana Incom <sup><a href="https://www.wikidata.org/wiki/Q17635167">Wikidata</a></p>
+
+							    <p><span>Numero di edizione:</span> La Settimana Incom n. 01442</p>
+							</section>
+
+							<section>
+							    <h2>Descrizione</h2>
+
+							    <p><span>Sintesi editoriale:</span> Cinegiornale della testata "La Settimana Incom" (n. 01442, distribuito il 16 agosto 1956) dedicato al disastro minerario di Marcinelle (Belgio), avvenuto l'8 agosto 1956 nel pozzo del Bois du Cazier. L'incendio provocò la morte di 262 minatori, di cui 136 italiani emigrati in Belgio nell'ambito degli accordi italo-belgi del dopoguerra. Il servizio documenta le operazioni di soccorso, l'attesa dei familiari, l'arrivo delle autorità belghe e il recupero delle vittime.</p>
+							</section>
+
+							<section>
+							    <h2>Sequenze</h2>
+
+							    <ol>
+							        <li>Impianto per l'estrazione del carbone di Marcinelle.</li>
+							        <li>Fumo nero che fuoriesce dal pozzo della miniera.</li>
+							        <li>Soldati dell'esercito belga scaricano le attrezzature di soccorso.</li>
+							        <li>Volontari si calano nel pozzo della miniera.</li>
+							        <li>Familiari dei minatori attendono notizie.</li>
+							        <li>Folla raccolta dietro i cancelli della miniera.</li>
+							        <li>Arrivo del re Baldovino e del primo ministro Achille Van Acker.</li>
+							        <li>Recupero dei corpi dei minatori.</li>
+							        <li>Trasporto dei feriti in barella.</li>
+							        <li>Un uomo si accascia sopraffatto dal dolore.</li>
+							        <li>I soccorsi continuano durante la notte.</li>
+							    </ol>
+							</section>
+
+							<section>
+							    <h2>Soggetti</h2>
+
+							    <p><span>Parole chiave:</span> <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">industria estrattiva</a>; <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">minatori</a>; <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">cronaca</a>; <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">disastro di Marcinelle</a>; <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">emigrazione italiana in Belgio</a>; <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">immigrazione italiana</a>; carbone; <a href="#" title="Visualizza tutti gli elementi con questa parola chiave">soccorsi.</a></p>
+
+							    <p><span>Genere:</span> Cinegiornale</p>
+							</section>
+
+							<section>
+							    <h2>Persone correlate</h2>
+
+							    <p><span>Re del Belgio:</span> Baldovino I del Belgio <sup><a href="#">Scheda Persona</a></sup></p>
+
+							    <p><span>Primo ministro del Belgio:</span> Achille Van Acker <sup><a href="#">Scheda Persona</a></sup></p>
+							</section>
+
+							<section>
+							    <h2>Copertura spazio-temporale</h2>
+
+							    <p><span>Luogo dell'evento:</span> Marcinelle, Charleroi, Belgio <sup><a href="#">Vai alla mappa</a></sup></p>
+
+							    <p><span>Sito:</span> Bois du Cazier <sup><a href="#">Vai alla mappa</a></sup></p>
+
+							    <p><span>Paese di produzione filmato:</span> Italia</p>
+
+							    <p><span>Data dell'evento:</span> 8 agosto 1956 <sup><a href="#">Vai alla linea del tempo</a></sup></p>
+
+							    <p><span>Data di distribuzione:</span> 16 agosto 1956 <sup><a href="#">Vai alla linea del tempo</a></sup></p>
+							</section>
+
+							<section>
+							    <h2>Responsabilità</h2>
+
+							    <p><span>Casa di produzione:</span> Incom – Industria Corti Metraggi</p>
+
+							    <p><span>Ente conservatore:</span> Istituto Luce - Cinecittà</p>
+							</section>
+
+							<section>
+							    <h2>Lingua</h2>
+
+							    <p><span>Lingua del commento parlato:</span> Italiano (ITA)</p>
+							</section>
+
+							<section>
+							    <h2>Formato</h2>
+
+							    <p><span>Durata:</span> 1 minuto e 44 secondi</p>
+
+							    <p><span>Supporto originale:</span> Pellicola cinematografica 35 mm sonora</p>
+
+							    <p><span>Colore:</span> Bianco e nero</p>
+							</section>
+
+							<section>
+							    <h2>Diritti</h2>
+
+							    <p><span>Titolare dei diritti:</span> Istituto Luce – Cinecittà <sup><a href="http://viaf.org/viaf/153856420">VIAF</a></p>
+
+							    <p><span>Stato dei diritti:</span> In Copyright</p>
+
+							    <p><span>Rights Statement:</span>
+							        <a href="https://rightsstatements.org/vocab/InC/1.0/" target="_blank"> https://rightsstatements.org/vocab/InC/1.0/</a>
+							    </p>
+							</section>
+
+							<section>
+							    <h2>Relazioni e risorse esterne</h2>
+
+							    <p><span>Serie:</span> La Settimana Incom (n. 01442)</p>
+
+							    <p><span>Collezione Europeana:</span> Europeana XX: Century of Change</p>
+
+							    <p><span>Aggregatore:</span> <a href="https://www.europeanfilmgateway.eu/" title="The European Film Gateway" target="_blank">The European Film Gateway </p>
+
+							    <p><span>YouTube:</span>
+							        <a href="https://www.youtube.com/watch?v=fo9t1zr5ci4" target="_blank">
+							            Guarda il video
+							        </a>
+							    </p>
+
+							    <p><span>Europeana:</span>
+							        <a href="https://www.europeana.eu/it/item/08602/IL5000032913" target="_blank"> Scheda Europeana </a></p>
+
+							    <p><span>Archivio Storico Istituto Luce:</span>
+							        <a href="https://patrimonio.archivioluce.com/luce-web/detail/IL5000032913/2/miniere-marcinelle-piu-duecento-minatori-bloccati-nelle-viscere-della-terra-decine-i-morti-e-i-feriti-sul-posto-accorrono-re.html" target="_blank"> Scheda archivistica</a> </p>
+							</section>
+					</div>
+
+					<div id="Transcription" class="tabcontent">
+						<div class="meta-header">
+						  <h3>Trascrizione</h3>
+						  <a href="standard/tei.item.xml" target="_blank" class="meta" title="File DublinCore" download>TEI/XML</a>
+					  </div>
+					  <div>
+						  <p>Il fumo denso e acre proviene dal pozzo numero uno. Da quasi
+	          	<strong>1000 metri di profondità</strong>  vi arde un intero <strong>filone carbonifero</strong>, e là sottoterra ci sono ancora <strong>261 uomini, 139 italiani</strong>.</p>
+						  <p>Da tutto il <strong>Belgio</strong> sono accorsi i volenterosi, che si calano giù per tentare di salvare i fratelli, pur sapendo che potrebbero non ritornare più anche loro.</p>
+						  <p>Attorno alla <strong>miniera</strong> centinaia di persone attendono da ore, ormai da giorni. Hanno il proprio uomo e il proprio figlio sotto i loro piedi, consunti in una lenta, orribile morte, e non si può far niente. Niente.</p>
+						  <p><strong>Re Baldovino</strong> e il <strong>primo ministro Van Acker</strong> accorrono a <strong>Marcinelle</strong>. Niente, non si può far niente, se non dire parole di conforto, e forse, dare assicurazioni per il futuro.</p>
+						  <p>Ma, ai morti, le parole non servono più. Fino a questo momento, oltre i <strong>sepolti</strong>, sono stati estratti <strong>sei feriti e 19 morti</strong>.</p>
+						  <p>Talvolta l'incuria, la distrazione degli uomini, o anche la fatalità, scatenano le forze primigenie della natura. Forze misteriose che le antiche genti attribuivano ad orrendi mostri avidi di
+	          	divorare vite umane.</p>
+	          </div>
+					</div>
          	</div>
          	<div class="card">
   				<div class="cardcontainer">
@@ -113,3 +298,6 @@
             	<p class="footext">© Copyright (c) 2026 by Francesco Burgio Università di Bologna</p>
 			</div>
 		</footer>
+	<script src="script.js"></script>
+	</body>
+</html>
