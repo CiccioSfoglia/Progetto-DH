@@ -182,7 +182,7 @@
                     <ebucore:identifierType typeLabel="Wikidata"/>
                 </ebucore:identifier>
                <ebucore:identifier>
-                    <dc:identifier>http://viaf.org/viaf/241245127</ebucore:identifier>
+                    <dc:identifier>http://viaf.org/viaf/241245127</dc:identifier>
                     <ebucore:identifierType typeLabel="VIAF"/>
                </ebucore:identifier>
         </ebucore:spatial>
