@@ -24,11 +24,49 @@
         </recordingStmt>
       </sourceDesc>
     </fileDesc>
-    <particDesc>
-      <person xml:id="narrator" role="narrator">
-        <persName>Voce narrante</persName>
-      </person>
-    </particDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="narrator" role="narrator">
+            <persName>Voce narrante</persName>
+          </person>
+          <!--BALDOVINO-->
+          <person xml:id="PERS_001" sameAs="https://www.wikidata.org/wiki/Q12976">
+            <persName>
+                <forename>Baudouin</forename>
+                <roleName>King of the Belgians</roleName>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/89600861</idno>
+          </person>
+          <!--VANACKER-->
+          <person xml:id="PERS_002" sameAs="https://www.wikidata.org/wiki/Q14997">
+            <persName>
+              <forename>Achille</forename>
+              <surname>Van Acker</surname>
+              <roleName>Prime Minister of Belgium</roleName>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/18084946</idno>
+          </person>
+          <!--GRUPPI-->
+          <personGrp xml:id="soccorritori">
+            <persName>Soccorritori</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <settingDesc>
+        <setting>
+         <time when="1956-08-08">August 8, 1956</time> 
+         
+         <place xml:id="LOC_001" sameAs="https://www.wikidata.org/wiki/Q785440">
+            <placeName >Marcinelle, Charleroi, Belgium</placeName>
+            <idno type="URI">http://vocab.getty.edu/page/tgn/7007869</idno>
+            <location>
+               <geo>50.3861 4.4444</geo>
+            </location>
+         </place>
+      </setting>
+    </settingDesc>
+    </profileDesc>
   </teiHeader>
 
   <text>
@@ -51,7 +89,7 @@
         </u>
 
         <u who="#narrator" start="#t20" end="#t30">
-          Da tutto il <placeName>Belgio</placeName>> sono accorsi i volenterosi, che si calano giù per tentare di salvare i fratelli, pur sapendo che potrebbero non ritornare più anche loro.
+          Da tutto il <placeName>Belgio</placeName>> sono accorsi i <rs type="personGrp" ref="#soccorritori"> volenterosi</rs>, che si calano giù per tentare di salvare i fratelli, pur sapendo che potrebbero non ritornare più anche loro.
         </u>
 
         <u who="#narrator" start="#t30" end="#t42">
@@ -59,7 +97,7 @@
         </u>
 
         <u who="#narrator" start="#t42" end="#t54">
-          <persName ref="http://viaf.org/viaf/89600861">Re baldovino</persName> e il <persName ref="http://viaf.org/viaf/18084946">primo ministro Van Acker</persName>> accorrono a <placeName ref="http://vocab.getty.edu/page/tgn/7251628">Marcinelle</placeName>. Niente, non si può far niente, se non dire parole di conforto, e forse, dare assicurazioni per il futuro.
+          <rs type="person" ref="#PERS_001">Re Baldovino</rs> e il <rs type="person" ref="#PERS_002">primo ministro Van Acker</rs> accorrono a <rs type="place" ref="#LOC_001">Marcinelle</rs>. Niente, non si può far niente, se non dire parole di conforto, e forse, dare assicurazioni per il futuro.
         </u>
 
         <u who="#narrator" start="#t54" end="#t72">
