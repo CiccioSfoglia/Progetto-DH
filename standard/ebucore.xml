@@ -163,6 +163,10 @@
         <ebucore:spatial>
           <ebucore:name typeLabel="luogo dell'evento">Marcinelle, Charleroi, Belgio</ebucore:name>
             <ebucore:identifier>
+                <dc:identifier>http://vocab.getty.edu/page/tgn/7251628</dc:identifier>
+                <ebucore:identifierType typeLabel="Getty TGN"/>
+            </ebucore:identifier>
+            <ebucore:identifier>
                 <dc:identifier>https://www.wikidata.org/wiki/Q785440</dc:identifier>
                 <ebucore:identifierType typeLabel="Wikidata"/>
             </ebucore:identifier>
@@ -177,6 +181,10 @@
                     <dc:identifier>https://www.wikidata.org/wiki/Q891068</dc:identifier>
                     <ebucore:identifierType typeLabel="Wikidata"/>
                 </ebucore:identifier>
+               <ebucore:identifier>
+                    <dc:identifier>http://viaf.org/viaf/241245127</ebucore:identifier>
+                    <ebucore:identifierType typeLabel="VIAF"/>
+               </ebucore:identifier>
         </ebucore:spatial>
         <ebucore:spatial>
             <ebucore:name typeLabel="paese di produzione">Italia</ebucore:name>
@@ -189,7 +197,7 @@
         </ebucore:temporal>
     </ebucore:coverage>
 
-    <!-- ============================== RESPONSABILITÀ / RUOLI ============================== -->
+    <!-- RESPONSABILITÀ / RUOLI  -->
     <ebucore:creator>
       <ebucore:contactDetails>
         <ebucore:name typeLabel="casa di produzione">Incom - Industria Corti Metraggi</ebucore:name>
@@ -212,7 +220,6 @@
           <dc:identifier>https://id.loc.gov/authorities/names/n84093813</dc:identifier>
           <ebucore:identifierType typeLabel="LCNAF"/>
         </ebucore:identifier>
-
       </ebucore:contactDetails>
     </ebucore:publisher>
 
